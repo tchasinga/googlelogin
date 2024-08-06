@@ -1,0 +1,11 @@
+{
+    "name": "Login with Google",
+    "version": "1.0.0",
+    "description": "This is a simple login with Google",
+    "manifest_version": 3,
+    "author": "Tchasinga Balolebwami Asiwaju",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Login with Google"
+    }
+}
