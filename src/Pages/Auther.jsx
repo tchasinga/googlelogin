@@ -16,6 +16,7 @@ export default function Auther() {
         try {
             const result = await signInWithPopup(auth, provider);
             setUser(result.user);
+            console.log(result.user)
         } catch (error) {
             setError("Error signing in with Google: " + error.message);
         } finally {
